@@ -1,0 +1,17 @@
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\bin\Debug\net9.0\MaktabToDoList.Domain.Services.Services.deps.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\bin\Debug\net9.0\MaktabToDoList.Domain.Services.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\bin\Debug\net9.0\MaktabToDoList.Domain.Services.Services.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabToDoList.Domain.Services.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabToDoList.Domain.Services.Services.AssemblyInfoInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabToDoList.Domain.Services.Services.AssemblyInfo.cs
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabToDoList.Domain.Services.Services.csproj.CoreCompileInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabToDoList.Domain.Services.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\refint\MaktabToDoList.Domain.Services.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabToDoList.Domain.Services.Services.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\ref\MaktabToDoList.Domain.Services.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\bin\Debug\net9.0\MaktabToDoList.Domain.Core.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\bin\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\bin\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\bin\Debug\net9.0\MaktabToDoList.Domain.Core.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabToDoList.Domain.Services.Services.csproj.AssemblyReference.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\obj\Debug\net9.0\MaktabTo.7EB0CE85.Up2Date

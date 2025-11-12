@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+9d5MDf6cH8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\MaktabToDoList.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abolfazl\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Abolfazl\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Abolfazl\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\bin\Debug\net9.0\MaktabToDoList-AppService.deps.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\bin\Debug\net9.0\MaktabToDoList-AppService.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\bin\Debug\net9.0\MaktabToDoList-AppService.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabToDoList-AppService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabToDoList-AppService.AssemblyInfoInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabToDoList-AppService.AssemblyInfo.cs
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabToDoList-AppService.csproj.CoreCompileInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabToDoList-AppService.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\refint\MaktabToDoList-AppService.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabToDoList-AppService.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\ref\MaktabToDoList-AppService.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\bin\Debug\net9.0\MaktabToDoList.Domain.Core.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\bin\Debug\net9.0\MaktabToDoList.Domain.Core.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabToDoList-AppService.csproj.AssemblyReference.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Services\Application-Services\MaktabToDoList-AppService\obj\Debug\net9.0\MaktabTo.F780F23A.Up2Date

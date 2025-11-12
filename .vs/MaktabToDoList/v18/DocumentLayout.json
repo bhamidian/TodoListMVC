@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92DD3901-4F2F-4CC6-82CB-AFFC8B3E8A9A}|src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\MaktabToDoList.EndPoints.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\03-endpoints\\maktabtodolist.endpoints.mvc\\views\\taskitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92DD3901-4F2F-4CC6-82CB-AFFC8B3E8A9A}|src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\MaktabToDoList.EndPoints.MVC.csproj|solutionrelative:src\\03-endpoints\\maktabtodolist.endpoints.mvc\\views\\taskitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92DD3901-4F2F-4CC6-82CB-AFFC8B3E8A9A}|src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\MaktabToDoList.EndPoints.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\03-endpoints\\maktabtodolist.endpoints.mvc\\models\\viewmodels\\createtaskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92DD3901-4F2F-4CC6-82CB-AFFC8B3E8A9A}|src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\MaktabToDoList.EndPoints.MVC.csproj|solutionrelative:src\\03-endpoints\\maktabtodolist.endpoints.mvc\\models\\viewmodels\\createtaskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92DD3901-4F2F-4CC6-82CB-AFFC8B3E8A9A}|src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\MaktabToDoList.EndPoints.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\03-endpoints\\maktabtodolist.endpoints.mvc\\models\\viewmodels\\taskitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92DD3901-4F2F-4CC6-82CB-AFFC8B3E8A9A}|src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\MaktabToDoList.EndPoints.MVC.csproj|solutionrelative:src\\03-endpoints\\maktabtodolist.endpoints.mvc\\models\\viewmodels\\taskitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E50D3C17-30A0-4195-9F95-D1372AD91AFB}|src\\01-Domain\\Services\\Application-Services\\MaktabToDoList-AppService\\MaktabToDoList-AppService.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\01-domain\\services\\application-services\\maktabtodolist-appservice\\services\\taskitemappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50D3C17-30A0-4195-9F95-D1372AD91AFB}|src\\01-Domain\\Services\\Application-Services\\MaktabToDoList-AppService\\MaktabToDoList-AppService.csproj|solutionrelative:src\\01-domain\\services\\application-services\\maktabtodolist-appservice\\services\\taskitemappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F45986-176D-4577-8DBF-DD626FDEC717}|src\\01-Domain\\Services\\Services\\MaktabToDoList.Domain.Services.Services\\MaktabToDoList.Domain.Services.Services.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\01-domain\\services\\services\\maktabtodolist.domain.services.services\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F45986-176D-4577-8DBF-DD626FDEC717}|src\\01-Domain\\Services\\Services\\MaktabToDoList.Domain.Services.Services\\MaktabToDoList.Domain.Services.Services.csproj|solutionrelative:src\\01-domain\\services\\services\\maktabtodolist.domain.services.services\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40D5B033-68B7-440D-8D0D-5C9C78DCE816}|src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\MaktabToDoList.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\02-infrastructure\\maktabtodolist.infrastructure.efcore\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40D5B033-68B7-440D-8D0D-5C9C78DCE816}|src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\MaktabToDoList.Infrastructure.EFCore.csproj|solutionrelative:src\\02-infrastructure\\maktabtodolist.infrastructure.efcore\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126D3A4-31B4-4CBF-920F-C9A94A5A6844}|src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\MaktabToDoList.Domain.Core.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\01-domain\\core\\maktabtodolist.domain.core\\task\\dtos\\gettaskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A126D3A4-31B4-4CBF-920F-C9A94A5A6844}|src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\MaktabToDoList.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\maktabtodolist.domain.core\\task\\dtos\\gettaskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126D3A4-31B4-4CBF-920F-C9A94A5A6844}|src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\MaktabToDoList.Domain.Core.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\01-domain\\core\\maktabtodolist.domain.core\\task\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A126D3A4-31B4-4CBF-920F-C9A94A5A6844}|src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\MaktabToDoList.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\maktabtodolist.domain.core\\task\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40D5B033-68B7-440D-8D0D-5C9C78DCE816}|src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\MaktabToDoList.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\02-infrastructure\\maktabtodolist.infrastructure.efcore\\repositories\\normaluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40D5B033-68B7-440D-8D0D-5C9C78DCE816}|src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\MaktabToDoList.Infrastructure.EFCore.csproj|solutionrelative:src\\02-infrastructure\\maktabtodolist.infrastructure.efcore\\repositories\\normaluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40D5B033-68B7-440D-8D0D-5C9C78DCE816}|src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\MaktabToDoList.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabtodolist\\src\\02-infrastructure\\maktabtodolist.infrastructure.efcore\\repositories\\taskcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40D5B033-68B7-440D-8D0D-5C9C78DCE816}|src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\MaktabToDoList.Infrastructure.EFCore.csproj|solutionrelative:src\\02-infrastructure\\maktabtodolist.infrastructure.efcore\\repositories\\taskcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Views\\TaskItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Views\\TaskItem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Views\\TaskItem\\Index.cshtml",
+              "RelativeToolTip": "src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Views\\TaskItem\\Index.cshtml",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAGsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T22:56:10.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTaskViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\CreateTaskViewModel.cs",
+              "RelativeDocumentMoniker": "src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\CreateTaskViewModel.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\CreateTaskViewModel.cs",
+              "RelativeToolTip": "src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\CreateTaskViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:57:54.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\TaskItemViewModel.cs",
+              "RelativeDocumentMoniker": "src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\TaskItemViewModel.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\TaskItemViewModel.cs",
+              "RelativeToolTip": "src\\03-EndPoints\\MaktabToDoList.EndPoints.MVC\\Models\\ViewModels\\TaskItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:57:48.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItemAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Services\\Application-Services\\MaktabToDoList-AppService\\Services\\TaskItemAppService.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\Services\\Application-Services\\MaktabToDoList-AppService\\Services\\TaskItemAppService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Services\\Application-Services\\MaktabToDoList-AppService\\Services\\TaskItemAppService.cs",
+              "RelativeToolTip": "src\\01-Domain\\Services\\Application-Services\\MaktabToDoList-AppService\\Services\\TaskItemAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:56:47.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetTaskItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\DTOs\\GetTaskItemDTO.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\DTOs\\GetTaskItemDTO.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\DTOs\\GetTaskItemDTO.cs",
+              "RelativeToolTip": "src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\DTOs\\GetTaskItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:58:16.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Services\\Services\\MaktabToDoList.Domain.Services.Services\\Services\\TaskItemService.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\Services\\Services\\MaktabToDoList.Domain.Services.Services\\Services\\TaskItemService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Services\\Services\\MaktabToDoList.Domain.Services.Services\\Services\\TaskItemService.cs",
+              "RelativeToolTip": "src\\01-Domain\\Services\\Services\\MaktabToDoList.Domain.Services.Services\\Services\\TaskItemService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:52:31.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NormalUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\NormalUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\NormalUserRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\NormalUserRepository.cs",
+              "RelativeToolTip": "src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\NormalUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:52:09.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskCategoryRepository.cs",
+              "RelativeDocumentMoniker": "src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskCategoryRepository.cs",
+              "RelativeToolTip": "src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:52:07.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\Task\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:48:55.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskItemRepository.cs",
+              "RelativeDocumentMoniker": "src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskItemRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskItemRepository.cs",
+              "RelativeToolTip": "src\\02-Infrastructure\\MaktabToDoList.Infrastructure.EFCore\\Repositories\\TaskItemRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:53:29.527Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

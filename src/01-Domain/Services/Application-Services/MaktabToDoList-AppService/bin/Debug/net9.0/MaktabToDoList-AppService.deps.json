@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MaktabToDoList-AppService/1.0.0": {
+        "dependencies": {
+          "MaktabToDoList.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "MaktabToDoList-AppService.dll": {}
+        }
+      },
+      "MaktabToDoList.Domain.Core/1.0.0": {
+        "runtime": {
+          "MaktabToDoList.Domain.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaktabToDoList-AppService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaktabToDoList.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

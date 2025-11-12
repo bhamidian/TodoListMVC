@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <!DOCTYPE html>
+    <html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - پنل مدیریت تسک‌ها</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                font-family: "IRANSans", sans-serif;
+            }
+
+            a.active {
+                background-color: rgb(34 211 238);
+                color: white;
+            }
+        </style>
+    </head>
+    <body class="bg-gradient-to-br from-slate-50 to-cyan-50 min-h-screen flex flex-row"
+          dir="rtl">
+        <aside class="w-64 bg-white border-l border-gray-200 shadow-lg flex flex-col justify-between">
+            <div>
+                <div class="py-6 flex flex-col items-center border-b border-gray-100">
+                    <h1 class="text-xl font-bold text-cyan-700">📚 Maktab Task Panel</h1>
+                    <span class="text-sm text-gray-500 mt-1">مدیریت امور روزانه</span>
+                </div>
+                <ul class="mt-6 space-y-1 text-gray-700">
+                    <li>
+                        <a asp-controller="Home"
+                           asp-action="Index"
+                           class="block px-6 py-3 hover:bg-cyan-100 hover:text-cyan-700 transition">🏠 خانه</a>
+                    </li>
+                    <li>
+                        <a asp-controller="TaskItem"
+                           asp-action="Index"
+                           class="block px-6 py-3 hover:bg-cyan-100 hover:text-cyan-700 transition">🗂 مدیریت تسک‌ها</a>
+                    </li>
+                    <li>
+                        <a asp-controller="TaskHistory"
+                           asp-action="Index"
+                           class="block px-6 py-3 hover:bg-cyan-100 hover:text-cyan-700 transition">🕓 تاریخچه تسک‌ها</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Account"
+                           asp-action="Logout"
+                           class="block px-6 py-3 hover:bg-red-100 hover:text-red-600 transition">🚪 خروج</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-center text-xs text-gray-400 py-4 border-t border-gray-100">
+                © 2025 Maktab ToDoList
+            </div>
+        </aside>
+
+        <main class="flex-1 p-8">@RenderBody()</main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation/1.19.5/jquery.validate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+    </body>
+    </html>
+
+
+}
+
+
+ 

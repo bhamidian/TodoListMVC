@@ -1,0 +1,11 @@
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\bin\Debug\net9.0\MaktabToDoList.Framework.deps.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\bin\Debug\net9.0\MaktabToDoList.Framework.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\bin\Debug\net9.0\MaktabToDoList.Framework.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.AssemblyInfoInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.AssemblyInfo.cs
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\refint\MaktabToDoList.Framework.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\ref\MaktabToDoList.Framework.dll

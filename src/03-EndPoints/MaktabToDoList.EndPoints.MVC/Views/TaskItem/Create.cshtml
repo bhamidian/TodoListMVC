@@ -1,0 +1,91 @@
+﻿@using MaktabToDoList.EndPoints.MVC.Models.ViewModels;
+@model MaktabToDoList.EndPoints.MVC.Models.ViewModels.CreateTaskViewModel;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدیریت تسک‌ها</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'IRANSans', sans-serif !important;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen bg-gradient-to-br from-cyan-50 to-slate-50 p-8">
+
+    <div class="max-w-3xl w-full mx-auto bg-white shadow-lg rounded-xl p-8 border border-gray-100">
+        <h2 class="text-2xl font-bold text-cyan-700 mb-8 text-center">📝 افزودن / ویرایش تسک</h2>
+
+        <form asp-action="Create" asp-controller="TaskItem" method="post" class="space-y-6" id="taskForm">
+            <input type="hidden" asp-for="TaskItemViewModel.Id" />
+            <input type="hidden" asp-for="TaskItemViewModel.CreatorId" />
+
+            <div>
+                <label asp-for="TaskItemViewModel.Title" class="block mb-2 text-sm font-medium text-gray-700">عنوان تسک</label>
+                <input asp-for="TaskItemViewModel.Title" type="text" required
+                       class="w-full rounded-lg border border-gray-300 focus:border-cyan-500 focus:ring-cyan-500 text-gray-900 shadow-sm px-3 py-2"
+                       placeholder="مثال: گزارش ماهانه">
+                <span asp-validation-for="TaskItemViewModel.Title" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div>
+                <label asp-for="TaskItemViewModel.Description" class="block mb-2 text-sm font-medium text-gray-700">توضیحات</label>
+                <textarea asp-for="TaskItemViewModel.Description" rows="3"
+                          class="w-full rounded-lg border border-gray-300 focus:border-cyan-500 focus:ring-cyan-500 text-gray-900 shadow-sm px-3 py-2"
+                          placeholder="توضیحات بیشتر (اختیاری)"></textarea>
+                <span asp-validation-for="TaskItemViewModel.Description" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label asp-for="TaskItemViewModel.End" class="block mb-2 text-sm font-medium text-gray-700">تاریخ پایان</label>
+                    <input asp-for="TaskItemViewModel.End" type="datetime-local"
+                           class="w-full rounded-lg border border-gray-300 focus:border-cyan-500 focus:ring-cyan-500 text-gray-900 shadow-sm px-3 py-2">
+                    <span asp-validation-for="TaskItemViewModel.End" class="text-red-500 text-sm"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="TaskItemViewModel.CategoryId" class="block mb-2 text-sm font-medium text-gray-700">دسته‌بندی</label>
+                <select asp-for="TaskItemViewModel.CategoryId"
+                        class="w-full rounded-lg border border-gray-300 focus:border-cyan-500 focus:ring-cyan-500 text-gray-900 shadow-sm px-3 py-2">
+                    <option value="">انتخاب کنید…</option>
+                    @foreach (var category in Model.TaskCategoryViewModel.taskCategories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="TaskItemViewModel.CategoryId" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+                <button type="submit"
+                        class="px-8 py-2.5 bg-cyan-600 text-white font-semibold rounded-lg shadow-md hover:bg-cyan-500 transition">
+                    ذخیره تسک
+                </button>
+
+
+                <a asp-controller="Account" asp-action="Login"
+                   class="px-8 py-2.5 bg-gray-300 text-gray-700 font-semibold rounded-lg shadow-md hover:bg-gray-400 transition">
+                    بازگشت
+                </a>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+</body>
+</html>
+

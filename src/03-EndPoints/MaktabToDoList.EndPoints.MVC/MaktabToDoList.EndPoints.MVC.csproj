@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Domain\Services\Application-Services\MaktabToDoList-AppService\MaktabToDoList-AppService.csproj" />
+    <ProjectReference Include="..\..\01-Domain\Services\Services\MaktabToDoList.Domain.Services.Services\MaktabToDoList.Domain.Services.Services.csproj" />
+    <ProjectReference Include="..\..\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\MaktabToDoList.Infrastructure.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

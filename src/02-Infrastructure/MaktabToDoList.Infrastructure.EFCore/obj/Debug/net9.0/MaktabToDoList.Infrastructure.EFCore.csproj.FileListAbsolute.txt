@@ -1,0 +1,17 @@
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\bin\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.deps.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\bin\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.runtimeconfig.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\bin\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\bin\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\bin\Debug\net9.0\MaktabToDoList.Domain.Core.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\bin\Debug\net9.0\MaktabToDoList.Domain.Core.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.csproj.AssemblyReference.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.AssemblyInfoInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.AssemblyInfo.cs
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabTo.38DB274F.Up2Date
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\refint\MaktabToDoList.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\ref\MaktabToDoList.Infrastructure.EFCore.dll
