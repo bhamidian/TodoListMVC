@@ -8,7 +8,6 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\Mak
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\datepicker\calendar.css
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
@@ -44,7 +43,6 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\Mak
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\favicon.ico
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\datepicker\calendar.js
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
@@ -66,8 +64,6 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\Mak
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 wwwroot\css\AuthenticationStyle.css
 wwwroot\css\site.css
-wwwroot\datepicker\calendar.css
-wwwroot\datepicker\calendar.js
 wwwroot\favicon.ico
 wwwroot\js\app.js
 wwwroot\js\site.js

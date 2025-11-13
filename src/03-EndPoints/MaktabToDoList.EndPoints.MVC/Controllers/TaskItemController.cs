@@ -140,8 +140,7 @@ public class TaskItemController : Controller
     [HttpGet]
     public IActionResult GetAllByFilters(GetTaskByQueryViewModel model)
     {
-
-        var dTo = new GetTaskByQueryDTO
+        var dto = new GetTaskByQueryDTO
         {
             CategoryId = model.CategoryId,
             StatusId = model.StatusId,
@@ -151,13 +150,17 @@ public class TaskItemController : Controller
             End = model.End
         };
 
+        var tasks = _taskItemAppService.GetAllByFilters(dto, InMemory.OnlineUser.Id);
 
-        var tasks = _taskItemAppService.GetAllByFilters(dTo, InMemory.OnlineUser.Id);
-
-        var finalModel = new GetAllTaskItemsViewModel { GetAllTasks = tasks };
+        var finalModel = new GetAllTaskItemsViewModel
+        {
+            GetAllTasks = tasks,
+            FilterModel = model 
+        };
 
         return View("Index", finalModel);
     }
+
 
     [HttpPost]
     public IActionResult Delete(int id)

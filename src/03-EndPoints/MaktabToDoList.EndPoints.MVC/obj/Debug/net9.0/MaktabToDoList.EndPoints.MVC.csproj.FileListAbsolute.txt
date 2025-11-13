@@ -232,5 +232,12 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\Mak
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\MaktabToDoList.EndPoints.MVC.sourcelink.json
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\MaktabToDoList.Framework.dll
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\MaktabToDoList.Framework.pdb
-C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\compressed\8vx8ysfckx-{0}-tuvkeadz2n-tuvkeadz2n.gz
-C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\compressed\s0f38uhywm-{0}-ine5zobm35-ine5zobm35.gz
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll

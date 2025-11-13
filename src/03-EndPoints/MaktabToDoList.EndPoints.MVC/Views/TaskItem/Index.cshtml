@@ -51,47 +51,53 @@
         </div>
     </div>
 
-    <form asp-action="GetAllByFilters" asp-controller="TaskItem" method="get" class="bg-white shadow-md rounded-xl p-4 mb-6 border border-gray-200">
-        <div class="flex flex-wrap justify-between items-center gap-4">
-            <div class="flex items-center gap-2">
-                <input type="text" name="search" value="@Context.Request.Query["search"]"
-                       placeholder="جستجو در عنوان و دسته‌بندی..."
-                       class="border border-gray-300 rounded-lg px-3 py-2 w-64 shadow-sm focus:ring-purple-500 focus:border-purple-500">
-            </div>
+<form asp-action="GetAllByFilters" asp-controller="TaskItem" method="get"
+      class="bg-white shadow-md rounded-xl p-4 mb-6 border border-gray-200">
+    <div class="flex flex-wrap justify-between items-center gap-4">
+        <div class="flex items-center gap-2">
+            <input type="text" name="Title" value="@Model.FilterModel?.Title"
+                   placeholder="جستجو در عنوان و دسته‌بندی..."
+                   class="border border-gray-300 rounded-lg px-3 py-2 w-64 shadow-sm focus:ring-purple-500 focus:border-purple-500" />
+        </div>
 
-            <div class="flex flex-wrap items-center gap-3">
-                <select name="sort" class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500">
+        <div class="flex flex-wrap items-center gap-3">
+
+                <select name="Sort" class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500">
                     <option value="">مرتب‌سازی</option>
-                    <option value="title-asc" selected="@(Context.Request.Query["sort"] == "title-asc")">عنوان (الف → ی)</option>
-                    <option value="title-desc" selected="@(Context.Request.Query["sort"] == "title-desc")">عنوان (ی → الف)</option>
-                    <option value="due-asc" selected="@(Context.Request.Query["sort"] == "due-asc")">سررسید (جدید → قدیم)</option>
-                    <option value="due-desc" selected="@(Context.Request.Query["sort"] == "due-desc")">سررسید (قدیم → جدید)</option>
-                    <option value="status-done" selected="@(Context.Request.Query["sort"] == "status-done")">انجام‌شده اول</option>
-                    <option value="status-notdone" selected="@(Context.Request.Query["sort"] == "status-notdone")">انجام‌نشده اول</option>
+                    <option value="title-asc" selected="@(Model.FilterModel?.Sort == "title-asc" ? "selected" : null)">عنوان (الف → ی)</option>
+                    <option value="title-desc" selected="@(Model.FilterModel?.Sort == "title-desc" ? "selected" : null)">عنوان (ی → الف)</option>
+                    <option value="due-asc" selected="@(Model.FilterModel?.Sort == "due-asc" ? "selected" : null)">سررسید (جدید → قدیم)</option>
+                    <option value="due-desc" selected="@(Model.FilterModel?.Sort == "due-desc" ? "selected" : null)">سررسید (قدیم → جدید)</option>
+                    <option value="status-done" selected="@(Model.FilterModel?.Sort == "status-done" ? "selected" : null)">انجام‌شده اول</option>
+                    <option value="status-notdone" selected="@(Model.FilterModel?.Sort == "status-notdone" ? "selected" : null)">انجام‌نشده اول</option>
                 </select>
 
-                <select name="status" class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500">
+
+                <select name="StatusId" class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500">
                     <option value="">همه وضعیت‌ها</option>
-                    <option value="0" selected="@(Context.Request.Query["status"] == "0")">در حال انجام</option>
-                    <option value="1" selected="@(Context.Request.Query["status"] == "1")">انجام شده</option>
-                    <option value="2" selected="@(Context.Request.Query["status"] == "2")">انجام نشده</option>
+                    <option value="0" selected="@(Model.FilterModel?.StatusId == 0 ? "selected" : null)">در حال انجام</option>
+                    <option value="1" selected="@(Model.FilterModel?.StatusId == 1 ? "selected" : null)">انجام شده</option>
+                    <option value="2" selected="@(Model.FilterModel?.StatusId == 2 ? "selected" : null)">انجام نشده</option>
                 </select>
 
-                <input type="date" name="dueDate" value="@Context.Request.Query["dueDate"]"
-                       class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500" />
 
-                <button type="submit"
-                        class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-6 py-2 rounded-lg shadow-md transition transform hover:scale-105">
-                    اعمال فیلتر
-                </button>
-            </div>
+            <input type="date" name="End" value="@(Model.FilterModel?.End?.ToString("yyyy-MM-dd"))"
+                   class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500" />
+
+            <button type="submit"
+                    class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-6 py-2 rounded-lg shadow-md transition transform hover:scale-105">
+                اعمال فیلتر
+            </button>
+        </div>
+    </div>
+</form>
+
 
             <a asp-action="Create" asp-controller="TaskItem"
                class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold px-6 py-2 rounded-lg shadow-md transition transform hover:scale-105">
                 افزودن تسک
             </a>
         </div>
-    </form>
 
     <div class="flex justify-end mb-6 text-gray-700 font-semibold text-lg">
         امروز @weekdayFa — @todayFa ساعت @currentTime
