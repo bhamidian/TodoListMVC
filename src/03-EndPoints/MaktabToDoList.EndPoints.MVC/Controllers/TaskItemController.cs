@@ -61,7 +61,6 @@ public class TaskItemController : Controller
 
         if (task.IsSuccess)
         {
-            TempData["Message"] = task.Message;
             return RedirectToAction("Index");
         }
 
@@ -146,6 +145,7 @@ public class TaskItemController : Controller
             StatusId = model.StatusId,
             Title = model.Title,
             Sort = model.Sort,
+            CategoryName = model.CategoryName,
             Start = model.Start,
             End = model.End
         };
@@ -169,7 +169,6 @@ public class TaskItemController : Controller
 
         if (task.IsSuccess)
         {
-            TempData["Delete"] = task.Message;
             return RedirectToAction("Index");
         }
 

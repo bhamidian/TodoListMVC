@@ -12,7 +12,8 @@ namespace MaktabToDoList.Domain.Services.Services.Services
         public TaskItemService(ITaskItemRepository taskItemRepository) =>
             _taskItemRepository = taskItemRepository;
 
-        public bool Create(TaskItemDTO dTO, int creatorId) => _taskItemRepository.Create(dTO,creatorId);
+        public bool Create(TaskItemDTO dTO, int creatorId) =>
+            _taskItemRepository.Create(dTO, creatorId);
 
         public bool Delete(int id) => _taskItemRepository.Delete(id);
 
@@ -32,9 +33,21 @@ namespace MaktabToDoList.Domain.Services.Services.Services
             return tasks;
         }
 
-        public List<GetTaskItemDTO> GetAllByFilters( GetTaskByQueryDTO dTO, int creatorId)
+        public List<GetTaskItemDTO> GetAllByFilters(GetTaskByQueryDTO dTO, int creatorId)
+        {
+            var tasks = _taskItemRepository.GetAllByFilters(dTO, creatorId);
 
-        => _taskItemRepository.GetAllByFilters(dTO, creatorId);
+            tasks.ForEach(task =>
+            {
+                if (task.Start > DateTime.MinValue)
+                    task.StartDateFa = task.Start.ToPersianString("yyyy/MM/dd");
+
+                if (task.End > DateTime.MinValue)
+                    task.EndDateFa = task.End.ToPersianString("yyyy/MM/dd");
+            });
+
+            return tasks;
+        }
 
         public GetTaskItemDTO? GetTaskById(int id)
         {

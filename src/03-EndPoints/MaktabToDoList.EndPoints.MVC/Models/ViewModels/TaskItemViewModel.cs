@@ -11,7 +11,6 @@ namespace MaktabToDoList.EndPoints.MVC.Models.ViewModels
         public string? Description { get; set; }
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
-        public TaskItemStatus TaskItemStatus { get; set; }
-        public TimeSpan? TimeSpent { get; set; }
+
     }
 }

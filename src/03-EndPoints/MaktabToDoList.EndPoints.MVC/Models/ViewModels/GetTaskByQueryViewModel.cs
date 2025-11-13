@@ -8,5 +8,6 @@
         public DateTime? End { get; set; } = null;
         public string? Title { get; set; } = null;
         public string? Sort { get; set; } = null;
+        public string? CategoryName { get; set; } = null;
     }
 }

@@ -26,10 +26,9 @@ namespace MaktabToDoList_AppService.Services
 
         public ResultDTO<bool> Delete(int id)
         {
-            return _taskItemService.Delete(id) ?
-               ResultDTO<bool>.Success("حذف با موفقیت انجام شد")
-               : ResultDTO<bool>.Fail("مشکلی در فرایند حذف به وجود امد");
-
+            return _taskItemService.Delete(id)
+                ? ResultDTO<bool>.Success("حذف با موفقیت انجام شد")
+                : ResultDTO<bool>.Fail("مشکلی در فرایند حذف به وجود امد");
         }
 
         public List<GetTaskItemDTO> GetAll(int creatorId)
@@ -37,8 +36,6 @@ namespace MaktabToDoList_AppService.Services
             _taskItemService.IsDelayed();
 
             return _taskItemService.GetAll(creatorId);
-
-
         }
 
         public List<GetTaskItemDTO> GetAllByFilters(GetTaskByQueryDTO dTO, int creatorId)
@@ -46,7 +43,6 @@ namespace MaktabToDoList_AppService.Services
             _taskItemService.IsDelayed();
 
             return _taskItemService.GetAllByFilters(dTO, creatorId);
-
         }
 
         public ResultDTO<GetTaskItemDTO?> GetTaskById(int id)
@@ -59,10 +55,9 @@ namespace MaktabToDoList_AppService.Services
             return ResultDTO<GetTaskItemDTO?>.Success("", task);
         }
 
-
         public ResultDTO<bool> Update(int id, GetTaskItemDTO dTO)
         {
-            var task =_taskItemService.Update(id, dTO);
+            var task = _taskItemService.Update(id, dTO);
 
             if (task is false)
                 return ResultDTO<bool>.Fail("اپدیت موفقیت امیز نبود");

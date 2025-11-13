@@ -14,7 +14,7 @@ namespace MaktabToDoList.Infrastructure.EFCore.Repositories
 
         public TaskItemRepository(AppDbContext dbContext) => _dbContext = dbContext;
 
-        public bool Create(TaskItemDTO dTO,int creatorId)
+        public bool Create(TaskItemDTO dTO, int creatorId)
         {
             try
             {
@@ -69,8 +69,6 @@ namespace MaktabToDoList.Infrastructure.EFCore.Repositories
 
         public List<GetTaskItemDTO> GetAllByFilters(GetTaskByQueryDTO dTO, int creatorId)
         {
-
-
             IQueryable<TaskItem> query = _dbContext.TaskItems.Where(c => c.CreatorId == creatorId);
 
             if (dTO.StatusId.HasValue)
@@ -88,22 +86,25 @@ namespace MaktabToDoList.Infrastructure.EFCore.Repositories
             if (!string.IsNullOrWhiteSpace(dTO.Title))
                 query = query.Where(t => t.Title.Contains(dTO.Title));
 
+            if (!string.IsNullOrWhiteSpace(dTO.CategoryName))
+                query = query.Where(t => t.Category.Name.Contains(dTO.CategoryName));
+
             if (!string.IsNullOrWhiteSpace(dTO.Sort))
             {
                 query = dTO.Sort switch
                 {
                     "title-asc" => query.OrderBy(t => t.Title),
                     "title-desc" => query.OrderByDescending(t => t.Title),
-                    "due-asc" => query.OrderBy(t => t.End), 
-                    "due-desc" => query.OrderByDescending(t => t.End), 
-                    "status-done" => query.OrderByDescending(t => t.Status), 
-                    "status-notdone" => query.OrderBy(t => t.Status), 
-                    _ => query.OrderBy(t => t.Id), 
+                    "due-asc" => query.OrderBy(t => t.End),
+                    "due-desc" => query.OrderByDescending(t => t.End),
+                    "status-done" => query.OrderByDescending(t => t.Status),
+                    "status-notdone" => query.OrderBy(t => t.Status),
+                    _ => query.OrderBy(t => t.Id),
                 };
             }
             else
             {
-                query = query.OrderBy(t => t.Id); 
+                query = query.OrderBy(t => t.Id);
             }
 
             return query
