@@ -2,20 +2,22 @@
 {
     public class TaskItemDTO
     {
-        public TaskItemDTO()
-        {
+        public TaskItemDTO() { }
 
-        }
-
-        public TaskItemDTO(string title,int id, int creatorId, int? categoryId,
-            string description, TimeSpan? timeSpent, DateTime start, DateTime? end)
+        public TaskItemDTO(
+            string title,
+            int id,
+            int creatorId,
+            int? categoryId,
+            string description,
+            DateTime start,
+            DateTime end
+        )
         {
-            
             Id = id;
             CategoryId = categoryId;
             CreatorId = creatorId;
             Description = description;
-            TimeSpent = timeSpent;
             Title = title;
             Start = start;
             End = end;
@@ -27,8 +29,9 @@
         public int CreatorId { get; set; }
         public TimeSpan? TimeSpent { get; set; }
         public DateTime Start { get; set; }
-        public DateTime? End { get; set; }
+        public DateTime End { get; set; }
+        public string StartDateFa { get; set; }
+        public string EndDateFa { get; set; }
         public string? Description { get; set; }
-        
     }
 }

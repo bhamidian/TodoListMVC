@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaktabToDoList-AppService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8898b1ef2ec5189feffefb118e2839ccd4cac2ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaktabToDoList-AppService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaktabToDoList-AppService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

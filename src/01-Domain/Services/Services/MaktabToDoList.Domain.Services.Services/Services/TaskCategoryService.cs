@@ -8,10 +8,9 @@ namespace MaktabToDoList.Domain.Services.Services.Services
     {
         private readonly ITaskCategoryRepository _taskCategoryRepository;
 
-        public TaskCategoryService(ITaskCategoryRepository taskCategoryRepository)
-            => _taskCategoryRepository = taskCategoryRepository;
+        public TaskCategoryService(ITaskCategoryRepository taskCategoryRepository) =>
+            _taskCategoryRepository = taskCategoryRepository;
 
-        public List<TaskCategoryDTO> GetAll() =>  _taskCategoryRepository.GetAll();
-
+        public List<TaskCategoryDTO> GetAll() => _taskCategoryRepository.GetAll();
     }
 }

@@ -4,16 +4,17 @@ namespace MaktabToDoList.Domain.Core.Task.Contracts.Repositories
 {
     public interface ITaskItemRepository
     {
-        bool Create(TaskItemDTO dTO);
+        bool Create(TaskItemDTO dTO,int creatorId);
         bool Delete(int id);
+        bool IsDelayed();
         bool Update(int id, GetTaskItemDTO dTO);
         bool UpdateStatus(int taskId, int statusId);
         GetTaskItemDTO? GetTaskById(int id);
-        List<GetTaskItemDTO> GetAll();
-        List<GetTaskItemDTO> GetAllByCategory(int categoryId);
-        List<GetTaskItemDTO> GetAllByStatus(int statusId);
-        List<GetTaskItemDTO> GetAllByDate(DateTime start, DateTime end);
-        List<GetTaskItemDTO> GetAllByFilters(int? categoryId,int? statusId,DateTime? start = null, DateTime? end = null);
+        List<GetTaskItemDTO> GetAllByFilters(GetTaskByQueryDTO dTO,int creatorId);
+        List<GetTaskItemDTO> GetAll(int creatorId);
+        //List<GetTaskItemDTO> GetAllByCategory(int categoryId);
+        //List<GetTaskItemDTO> GetAllByStatus(int statusId);
+        //List<GetTaskItemDTO> GetAllByDate(DateTime start, DateTime end);
 
 
 

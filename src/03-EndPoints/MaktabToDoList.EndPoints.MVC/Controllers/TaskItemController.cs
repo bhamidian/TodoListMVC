@@ -11,7 +11,8 @@ public class TaskItemController : Controller
 
     public TaskItemController(
         ITaskItemAppService taskItemAppService,
-        ITaskCategoryAppService taskCategoryAppService)
+        ITaskCategoryAppService taskCategoryAppService
+    )
     {
         _taskItemAppService = taskItemAppService;
         _taskCategoryAppService = taskCategoryAppService;
@@ -20,10 +21,9 @@ public class TaskItemController : Controller
     [HttpGet]
     public IActionResult Index(GetAllTaskItemsViewModel model)
     {
-        model.GetAllTasks = _taskItemAppService.GetAll();
+        model.GetAllTasks = _taskItemAppService.GetAll(InMemory.OnlineUser.Id);
 
         return View(model);
-
     }
 
     [HttpGet]
@@ -35,11 +35,8 @@ public class TaskItemController : Controller
 
             TaskCategoryViewModel = new TaskCategoryViewModel
             {
-                taskCategories = _taskCategoryAppService.GetAll()
+                taskCategories = _taskCategoryAppService.GetAll(),
             },
-
-
-
         };
 
         return View(model);
@@ -50,37 +47,32 @@ public class TaskItemController : Controller
     {
         model.TaskItemViewModel.CreatorId = InMemory.OnlineUser.Id;
 
-
         var taskItem = new TaskItemDTO(
             model.TaskItemViewModel.Title,
             model.TaskItemViewModel.Id,
             model.TaskItemViewModel.CreatorId,
             model.TaskItemViewModel.CategoryId,
             model.TaskItemViewModel.Description,
-            model.TaskItemViewModel.TimeSpent,
             model.TaskItemViewModel.Start,
             model.TaskItemViewModel.End
         );
 
-
-        var task = _taskItemAppService.Create(taskItem);
+        var task = _taskItemAppService.Create(taskItem,InMemory.OnlineUser.Id);
 
         if (task.IsSuccess)
         {
             TempData["Message"] = task.Message;
-            return RedirectToAction("Index"); 
+            return RedirectToAction("Index");
         }
 
         model.TaskCategoryViewModel = new TaskCategoryViewModel
         {
-            taskCategories = _taskCategoryAppService.GetAll()
+            taskCategories = _taskCategoryAppService.GetAll(),
         };
 
         ViewBag.Error = task.Message;
-        return View("Index", model); 
+        return View("Index", model);
     }
-
-
 
     [HttpGet]
     public IActionResult Update(int id)
@@ -90,19 +82,14 @@ public class TaskItemController : Controller
         if (taskDto is null)
             return NotFound();
 
-
-        
-
-
-
         var taskVm = new GetTaskByIdViewModel
         {
             Id = taskDto.Data.Id,
             Title = taskDto.Data.Title,
             Description = taskDto.Data.Description,
-            End = taskDto.Data.End,
+            EndDateFa = taskDto.Data.EndDateFa,
             CategoryId = taskDto.Data.CategoryId,
-            CreatorId = taskDto.Data.CreatorId
+            CreatorId = InMemory.OnlineUser.Id,
         };
 
         var categories = _taskCategoryAppService.GetAll();
@@ -110,15 +97,11 @@ public class TaskItemController : Controller
         var model = new UpdateTaskViewModel
         {
             GetTaskByIdViewModel = taskVm,
-            TaskCategoryViewModel = new TaskCategoryViewModel
-            {
-                taskCategories = categories
-            }
+            TaskCategoryViewModel = new TaskCategoryViewModel { taskCategories = categories },
         };
 
         return View(model);
     }
-
 
     [HttpPost]
     public IActionResult Update(UpdateTaskViewModel model)
@@ -132,11 +115,12 @@ public class TaskItemController : Controller
             Title = model.GetTaskByIdViewModel.Title,
             Description = model.GetTaskByIdViewModel.Description,
             TaskItemStatus = model.GetTaskByIdViewModel.TaskItemStatus,
-            End = model.GetTaskByIdViewModel.End,
-            CategoryId = model.GetTaskByIdViewModel.CategoryId
+            StartDateFa = model.GetTaskByIdViewModel.StartDateFa,
+            EndDateFa = model.GetTaskByIdViewModel.EndDateFa,
+            CategoryId = model.GetTaskByIdViewModel.CategoryId,
         };
 
-        _taskItemAppService.Update(dto.Id,dto);
+        _taskItemAppService.Update(dto.Id, dto);
         return RedirectToAction(nameof(Index));
     }
 
@@ -148,21 +132,32 @@ public class TaskItemController : Controller
         if (taskStatus.IsSuccess)
         {
             return RedirectToAction("Index");
-
         }
 
         return RedirectToAction("Index");
-
-
     }
 
+    [HttpGet]
+    public IActionResult GetAllByFilters(GetTaskByQueryViewModel model)
+    {
+
+        var dTo = new GetTaskByQueryDTO
+        {
+            CategoryId = model.CategoryId,
+            StatusId = model.StatusId,
+            Title = model.Title,
+            Sort = model.Sort,
+            Start = model.Start,
+            End = model.End
+        };
 
 
+        var tasks = _taskItemAppService.GetAllByFilters(dTo, InMemory.OnlineUser.Id);
 
+        var finalModel = new GetAllTaskItemsViewModel { GetAllTasks = tasks };
 
-
-
-
+        return View("Index", finalModel);
+    }
 
     [HttpPost]
     public IActionResult Delete(int id)
@@ -173,15 +168,8 @@ public class TaskItemController : Controller
         {
             TempData["Delete"] = task.Message;
             return RedirectToAction("Index");
-
         }
 
-
         return RedirectToAction("Index");
-
-
     }
-
-
-
 }

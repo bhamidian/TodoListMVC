@@ -14,9 +14,9 @@ namespace MaktabToDoList_AppService.Services
             _taskItemService = taskItemService;
         }
 
-        public ResultDTO<bool> Create(TaskItemDTO dTO)
+        public ResultDTO<bool> Create(TaskItemDTO dTO, int creatorId)
         {
-            if (_taskItemService.Create(dTO))
+            if (_taskItemService.Create(dTO, creatorId))
             {
                 return ResultDTO<bool>.Success("تسک با موفقیت اضافه شد");
             }
@@ -32,10 +32,22 @@ namespace MaktabToDoList_AppService.Services
 
         }
 
-        public List<GetTaskItemDTO> GetAll() => _taskItemService.GetAll();
+        public List<GetTaskItemDTO> GetAll(int creatorId)
+        {
+            _taskItemService.IsDelayed();
 
-        public List<GetTaskItemDTO> GetAllByFilters(int? categoryId, int? statusId, DateTime? start = null, DateTime? end = null)
-              => _taskItemService.GetAllByFilters(categoryId, statusId, start, end);
+            return _taskItemService.GetAll(creatorId);
+
+
+        }
+
+        public List<GetTaskItemDTO> GetAllByFilters(GetTaskByQueryDTO dTO, int creatorId)
+        {
+            _taskItemService.IsDelayed();
+
+            return _taskItemService.GetAllByFilters(dTO, creatorId);
+
+        }
 
         public ResultDTO<GetTaskItemDTO?> GetTaskById(int id)
         {
@@ -46,6 +58,7 @@ namespace MaktabToDoList_AppService.Services
 
             return ResultDTO<GetTaskItemDTO?>.Success("", task);
         }
+
 
         public ResultDTO<bool> Update(int id, GetTaskItemDTO dTO)
         {

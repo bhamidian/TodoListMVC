@@ -15,3 +15,4 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructur
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.pdb
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\ref\MaktabToDoList.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\obj\Debug\net9.0\MaktabToDoList.Infrastructure.EFCore.sourcelink.json

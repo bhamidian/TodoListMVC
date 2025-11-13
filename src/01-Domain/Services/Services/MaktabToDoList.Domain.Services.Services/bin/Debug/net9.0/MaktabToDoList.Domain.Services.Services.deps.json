@@ -9,6 +9,7 @@
       "MaktabToDoList.Domain.Services.Services/1.0.0": {
         "dependencies": {
           "MaktabToDoList.Domain.Core": "1.0.0",
+          "MaktabToDoList.Framework": "1.0.0",
           "MaktabToDoList.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
@@ -509,6 +510,14 @@
           }
         }
       },
+      "MaktabToDoList.Framework/1.0.0": {
+        "runtime": {
+          "MaktabToDoList.Framework.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MaktabToDoList.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
           "MaktabToDoList.Domain.Core": "1.0.0",
@@ -790,6 +799,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "MaktabToDoList.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaktabToDoList.Framework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

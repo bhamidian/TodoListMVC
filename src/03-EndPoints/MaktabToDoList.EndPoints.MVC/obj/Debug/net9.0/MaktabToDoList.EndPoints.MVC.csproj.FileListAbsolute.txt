@@ -229,3 +229,8 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\Mak
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\compressed\hfdm7ybrzq-{0}-zv0urk13el-zv0urk13el.gz
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\compressed\260heyytqu-{0}-zv0urk13el-zv0urk13el.gz
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\MaktabToDoList.EndPoints.MVC.sourcelink.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\MaktabToDoList.Framework.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\bin\Debug\net9.0\MaktabToDoList.Framework.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\compressed\8vx8ysfckx-{0}-tuvkeadz2n-tuvkeadz2n.gz
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\03-EndPoints\MaktabToDoList.EndPoints.MVC\obj\Debug\net9.0\compressed\s0f38uhywm-{0}-ine5zobm35-ine5zobm35.gz

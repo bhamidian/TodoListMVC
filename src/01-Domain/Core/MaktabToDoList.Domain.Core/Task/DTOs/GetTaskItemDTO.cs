@@ -6,8 +6,14 @@ namespace MaktabToDoList.Domain.Core.Task.DTOs
     {
         public GetTaskItemDTO() { }
 
-        public GetTaskItemDTO(int id, string title, string categoryName,
-            TaskItemStatus taskItemStatus, DateTime start, DateTime? end )
+        public GetTaskItemDTO(
+            int id,
+            string title,
+            string categoryName,
+            TaskItemStatus taskItemStatus,
+            DateTime start,
+            DateTime end
+        )
         {
             Id = id;
             Title = title;
@@ -17,8 +23,6 @@ namespace MaktabToDoList.Domain.Core.Task.DTOs
             End = end;
         }
 
-
-
         public int Id { get; set; }
         public int? CategoryId { get; set; }
         public int CreatorId { get; set; }
@@ -26,7 +30,9 @@ namespace MaktabToDoList.Domain.Core.Task.DTOs
         public string CategoryName { get; set; }
         public string? Description { get; set; }
         public DateTime Start { get; set; }
-        public DateTime? End { get; set; }
+        public DateTime End { get; set; }
+        public string StartDateFa { get; set; }
+        public string EndDateFa { get; set; }
         public TaskItemStatus TaskItemStatus { get; set; }
     }
 }

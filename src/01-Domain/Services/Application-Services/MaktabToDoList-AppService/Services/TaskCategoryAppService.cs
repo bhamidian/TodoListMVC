@@ -1,11 +1,6 @@
 ﻿using MaktabToDoList.Domain.Core.Task.Contracts.AppServices;
 using MaktabToDoList.Domain.Core.Task.Contracts.Services;
 using MaktabToDoList.Domain.Core.Task.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MaktabToDoList_AppService.Services
 {
@@ -17,8 +12,7 @@ namespace MaktabToDoList_AppService.Services
         {
             _taskCategoryService = taskCategoryService;
         }
+
         public List<TaskCategoryDTO> GetAll() => _taskCategoryService.GetAll();
-
-
     }
 }

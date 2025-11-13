@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MaktabToDoList.Domain.Core.User.DTOs
+﻿namespace MaktabToDoList.Domain.Core.User.DTOs
 {
     public class LoginDTO
     {
-        public LoginDTO(int id ,string userName, string password)
+        public LoginDTO(int id, string userName, string password)
         {
             Id = id;
             UserName = userName;

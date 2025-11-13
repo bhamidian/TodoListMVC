@@ -9,3 +9,4 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Core\M
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Core\MaktabToDoList.Domain.Core\obj\Debug\net9.0\refint\MaktabToDoList.Domain.Core.dll
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Core\MaktabToDoList.Domain.Core\obj\Debug\net9.0\MaktabToDoList.Domain.Core.pdb
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Core\MaktabToDoList.Domain.Core\obj\Debug\net9.0\ref\MaktabToDoList.Domain.Core.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\01-Domain\Core\MaktabToDoList.Domain.Core\obj\Debug\net9.0\MaktabToDoList.Domain.Core.sourcelink.json

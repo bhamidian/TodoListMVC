@@ -4,6 +4,6 @@
     {
         Doing = 0,
         NotDone = 2,
-        Done = 1
+        Done = 1,
     }
 }

@@ -41,6 +41,14 @@
                           placeholder="توضیحات بیشتر (اختیاری)"></textarea>
                 <span asp-validation-for="TaskItemViewModel.Description" class="text-red-500 text-sm"></span>
             </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label asp-for="TaskItemViewModel.Start" class="block mb-2 text-sm font-medium text-gray-700">تاریخ </label>
+                    <input asp-for="TaskItemViewModel.Start" type="datetime-local"
+                           class="w-full rounded-lg border border-gray-300 focus:border-cyan-500 focus:ring-cyan-500 text-gray-900 shadow-sm px-3 py-2">
+                    <span asp-validation-for="TaskItemViewModel.Start" class="text-red-500 text-sm"></span>
+                </div>
+            </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>

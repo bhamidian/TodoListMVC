@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\00-Framework\MaktabToDoList.Framework\MaktabToDoList.Framework.csproj" />
     <ProjectReference Include="..\..\..\..\02-Infrastructure\MaktabToDoList.Infrastructure.EFCore\MaktabToDoList.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\..\..\Core\MaktabToDoList.Domain.Core\MaktabToDoList.Domain.Core.csproj" />
   </ItemGroup>

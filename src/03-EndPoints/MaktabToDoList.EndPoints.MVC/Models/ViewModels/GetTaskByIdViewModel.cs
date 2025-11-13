@@ -9,8 +9,8 @@ namespace MaktabToDoList.EndPoints.MVC.Models.ViewModels
         public int? CategoryId { get; set; }
         public string Title { get; set; }
         public string? Description { get; set; }
-        public DateTime Start { get; set; }
-        public DateTime? End { get; set; }
+        public string StartDateFa { get; set; }
+        public string EndDateFa { get; set; }
         public TaskItemStatus TaskItemStatus { get; set; }
     }
 }

@@ -1094,6 +1094,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "MaktabToDoList.Domain.Core": "1.0.0",
+          "MaktabToDoList.Framework": "1.0.0",
           "MaktabToDoList.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {
@@ -1101,6 +1102,16 @@
         },
         "runtime": {
           "bin/placeholder/MaktabToDoList.Domain.Services.Services.dll": {}
+        }
+      },
+      "MaktabToDoList.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MaktabToDoList.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaktabToDoList.Framework.dll": {}
         }
       },
       "MaktabToDoList.Infrastructure.EFCore/1.0.0": {
@@ -3116,6 +3127,11 @@
       "type": "project",
       "path": "../../01-Domain/Services/Services/MaktabToDoList.Domain.Services.Services/MaktabToDoList.Domain.Services.Services.csproj",
       "msbuildProject": "../../01-Domain/Services/Services/MaktabToDoList.Domain.Services.Services/MaktabToDoList.Domain.Services.Services.csproj"
+    },
+    "MaktabToDoList.Framework/1.0.0": {
+      "type": "project",
+      "path": "../../00-Framework/MaktabToDoList.Framework/MaktabToDoList.Framework.csproj",
+      "msbuildProject": "../../00-Framework/MaktabToDoList.Framework/MaktabToDoList.Framework.csproj"
     },
     "MaktabToDoList.Infrastructure.EFCore/1.0.0": {
       "type": "project",

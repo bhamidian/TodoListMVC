@@ -139,11 +139,19 @@ namespace MaktabToDoList.Infrastructure.EFCore.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("End")
+                    b.Property<DateTime>("End")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("EndDateFa")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Start")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("StartDateFa")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");

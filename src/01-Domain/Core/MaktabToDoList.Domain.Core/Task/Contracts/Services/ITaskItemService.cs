@@ -4,13 +4,16 @@ namespace MaktabToDoList.Domain.Core.Task.Contracts.Services
 {
     public interface ITaskItemService
     {
-        bool Create(TaskItemDTO dTO);
+        bool Create(TaskItemDTO dTO, int creatorId);
         bool Delete(int id);
         bool Update(int id, GetTaskItemDTO dTO);
         bool UpdateStatus(int taskId, int statusId);
-        List<GetTaskItemDTO> GetAll();
-        List<GetTaskItemDTO> GetAllByFilters(int? categoryId,int? statusId,DateTime? start = null,DateTime? end = null);
+        bool IsDelayed();
+
+        List<GetTaskItemDTO> GetAll(int creatorId);
+
         GetTaskItemDTO? GetTaskById(int id);
+        List<GetTaskItemDTO> GetAllByFilters(GetTaskByQueryDTO dTO, int creatorId);
 
 
     }

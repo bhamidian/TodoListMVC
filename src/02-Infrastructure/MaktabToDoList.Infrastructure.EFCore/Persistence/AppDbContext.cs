@@ -7,17 +7,17 @@ namespace MaktabToDoList.Infrastructure.EFCore.Persistence
 {
     public class AppDbContext : DbContext
     {
-
         public DbSet<NormalUser> NormalUsers { get; set; }
         public DbSet<TaskItem> TaskItems { get; set; }
         public DbSet<TaskHistory> TaskHistories { get; set; }
         public DbSet<TaskComment> TaskComments { get; set; }
         public DbSet<TaskCategory> Categories { get; set; }
-        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=ToDoListDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer(
+                "Server=(localdb)\\MSSQLLocalDB;Database=ToDoListDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
+            );
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -26,6 +26,5 @@ namespace MaktabToDoList.Infrastructure.EFCore.Persistence
             modelBuilder.ApplyConfiguration(new TaskItemConfigurations());
             modelBuilder.ApplyConfiguration(new TaskCategoryConfigurations());
         }
-
     }
 }

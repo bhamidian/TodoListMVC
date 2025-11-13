@@ -729,6 +729,16 @@
           "bin/placeholder/MaktabToDoList.Domain.Core.dll": {}
         }
       },
+      "MaktabToDoList.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MaktabToDoList.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaktabToDoList.Framework.dll": {}
+        }
+      },
       "MaktabToDoList.Infrastructure.EFCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1835,6 +1845,11 @@
       "path": "../../../Core/MaktabToDoList.Domain.Core/MaktabToDoList.Domain.Core.csproj",
       "msbuildProject": "../../../Core/MaktabToDoList.Domain.Core/MaktabToDoList.Domain.Core.csproj"
     },
+    "MaktabToDoList.Framework/1.0.0": {
+      "type": "project",
+      "path": "../../../../00-Framework/MaktabToDoList.Framework/MaktabToDoList.Framework.csproj",
+      "msbuildProject": "../../../../00-Framework/MaktabToDoList.Framework/MaktabToDoList.Framework.csproj"
+    },
     "MaktabToDoList.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "path": "../../../../02-Infrastructure/MaktabToDoList.Infrastructure.EFCore/MaktabToDoList.Infrastructure.EFCore.csproj",
@@ -1844,6 +1859,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "MaktabToDoList.Domain.Core >= 1.0.0",
+      "MaktabToDoList.Framework >= 1.0.0",
       "MaktabToDoList.Infrastructure.EFCore >= 1.0.0"
     ]
   },
@@ -1880,6 +1896,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\00-Framework\\MaktabToDoList.Framework\\MaktabToDoList.Framework.csproj": {
+              "projectPath": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\00-Framework\\MaktabToDoList.Framework\\MaktabToDoList.Framework.csproj"
+            },
             "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\MaktabToDoList.Domain.Core.csproj": {
               "projectPath": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabToDoList\\src\\01-Domain\\Core\\MaktabToDoList.Domain.Core\\MaktabToDoList.Domain.Core.csproj"
             },

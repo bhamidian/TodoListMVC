@@ -4,9 +4,7 @@ namespace MaktabToDoList.Domain.Core.Task.Entities
 {
     public class TaskComment
     {
-        public TaskComment()
-        {
-        }
+        public TaskComment() { }
 
         public TaskComment(string text, DateTime postedAt, int taskid, int userid)
         {
@@ -14,8 +12,8 @@ namespace MaktabToDoList.Domain.Core.Task.Entities
             PostedAt = postedAt;
             NormalUserId = userid;
             TaskItemId = taskid;
-
         }
+
         public int Id { get; set; }
         public int NormalUserId { get; set; }
         public NormalUser NormalUser { get; set; }
@@ -23,7 +21,5 @@ namespace MaktabToDoList.Domain.Core.Task.Entities
         public TaskItem TaskItem { get; set; }
         public string Text { get; set; }
         public DateTime PostedAt { get; set; }
-
-
     }
 }

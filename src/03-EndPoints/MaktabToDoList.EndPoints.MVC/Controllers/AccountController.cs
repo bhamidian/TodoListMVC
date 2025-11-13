@@ -2,16 +2,15 @@
 using MaktabToDoList.EndPoints.MVC.Models.ViewModels;
 using MaktabToDoList.Infrastructure.EFCore.InMemoryDatabase;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Win32;
 
 namespace MaktabToDoList.EndPoints.MVC.Controllers
 {
     public class AccountController : Controller
     {
         private readonly INormalUserAppService _normalUserAppService;
-        public AccountController(INormalUserAppService normalUserAppService)
-            => _normalUserAppService = normalUserAppService;
 
+        public AccountController(INormalUserAppService normalUserAppService) =>
+            _normalUserAppService = normalUserAppService;
 
         [HttpGet]
         public IActionResult Login()
@@ -33,22 +32,17 @@ namespace MaktabToDoList.EndPoints.MVC.Controllers
 
                 InMemory.OnlineUser.Id = login.Data.Id;
 
-
                 return RedirectToAction("Index", "TaskItem");
-
             }
             TempData["Message"] = login.Message;
 
-
             return View(model);
-
         }
 
         [HttpGet]
         public IActionResult Register()
         {
             return View(new UserAuthenticationViewModel());
-
         }
 
         [HttpPost]
@@ -65,9 +59,6 @@ namespace MaktabToDoList.EndPoints.MVC.Controllers
             TempData["Message"] = register.Message;
 
             return RedirectToAction("Login");
-
         }
-
-
     }
 }

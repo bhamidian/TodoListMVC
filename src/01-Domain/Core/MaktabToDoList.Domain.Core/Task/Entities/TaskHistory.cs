@@ -1,14 +1,10 @@
 ﻿using MaktabToDoList.Domain.Core.Task.Enums;
 
-
 namespace MaktabToDoList.Domain.Core.Task.Entities
 {
     public class TaskHistory
     {
-        public TaskHistory()
-        {
-
-        }
+        public TaskHistory() { }
 
         //public static TaskHistory LogHistory(TaskItem task)
         //{
@@ -28,7 +24,5 @@ namespace MaktabToDoList.Domain.Core.Task.Entities
         public string Description { get; set; }
         public TaskItemStatus Status { get; set; }
         public DateTime ChangedAt { get; set; }
-
-
     }
 }

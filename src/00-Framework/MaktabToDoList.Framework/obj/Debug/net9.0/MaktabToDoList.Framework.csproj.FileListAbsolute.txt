@@ -9,3 +9,4 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\Mak
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\refint\MaktabToDoList.Framework.dll
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.pdb
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\ref\MaktabToDoList.Framework.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabToDoList\src\00-Framework\MaktabToDoList.Framework\obj\Debug\net9.0\MaktabToDoList.Framework.sourcelink.json
