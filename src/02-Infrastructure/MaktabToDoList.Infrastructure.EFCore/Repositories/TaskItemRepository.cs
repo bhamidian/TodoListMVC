@@ -94,7 +94,7 @@ namespace MaktabToDoList.Infrastructure.EFCore.Repositories
                 query = dTO.Sort switch
                 {
                     "title-asc" => query.OrderBy(t => t.Title),
-                    "title-desc" => query.OrderByDescending(t => t.Title),
+                    //"title-desc" => query.OrderByDescending(t => t.Title),
                     "due-asc" => query.OrderBy(t => t.End),
                     "due-desc" => query.OrderByDescending(t => t.End),
                     "status-done" => query.OrderByDescending(t => t.Status),

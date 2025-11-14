@@ -14,7 +14,6 @@
         DayOfWeek.Wednesday => "چهارشنبه",
         DayOfWeek.Thursday => "پنج‌شنبه",
         DayOfWeek.Friday => "جمعه",
-        _ => ""
     };
     string todayFa = $"{persian.GetYear(now)}/{persian.GetMonth(now):00}/{persian.GetDayOfMonth(now):00}";
     string currentTime = now.ToString("HH:mm");
@@ -38,70 +37,64 @@
 </head>
 <body class="bg-gradient-to-br from-cyan-50 to-gray-50 min-h-screen p-8">
 
-    <div class="flex justify-between items-center mb-8">
+    <div class="flex justify-between items-center mb-6">
+        <a asp-action="Create" asp-controller="TaskItem"
+           class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold px-6 py-2 rounded-lg shadow-md transition transform hover:scale-105">
+             افزودن تسک
+        </a>
 
-        <div class="flex gap-3">
-            <span class="bg-purple-100 text-purple-700 px-4 py-1 rounded-full text-sm font-medium">Week 19</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-1 rounded-full text-sm font-medium">CW</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-1 rounded-full text-sm font-medium">مکتب 135</span>
-            <a asp-action="Login" asp-controller="Account"
-               class="bg-red-600 hover:bg-red-500 text-white px-5 py-2 rounded-lg shadow-md transition hover:scale-105">
-                خروج
-            </a>
+        <div class="text-gray-700 font-semibold text-lg">
+            امروز @weekdayFa — @todayFa ساعت @currentTime
         </div>
     </div>
 
-<form asp-action="GetAllByFilters" asp-controller="TaskItem" method="get"
-      class="bg-white shadow-md rounded-xl p-4 mb-6 border border-gray-200">
-    <div class="flex flex-wrap justify-between items-center gap-4">
-        <div class="flex items-center gap-2">
-            <input type="text" name="Title" value="@Model.FilterModel?.Title"
-                   placeholder="جستجو در عنوان و دسته‌بندی..."
-                   class="border border-gray-300 rounded-lg px-3 py-2 w-64 shadow-sm focus:ring-purple-500 focus:border-purple-500" />
-        </div>
+    <form asp-action="GetAllByFilters" asp-controller="TaskItem" method="get"
+          class="bg-white shadow-md border border-gray-200 rounded-xl p-5 mb-8">
 
-        <div class="flex flex-wrap items-center gap-3">
+        <div class="flex flex-wrap gap-4 items-center justify-between">
 
-                <select name="Sort" class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500">
+            <div class="flex flex-wrap items-center gap-3">
+                <input type="text" name="Title" value="@Model.FilterModel?.Title"
+                       placeholder="جستجو در عنوان..."
+                       class="border border-gray-300 rounded-lg px-3 py-2 w-64 shadow-sm focus:ring-cyan-500 focus:border-cyan-500" />
+
+                <input type="text" name="CategoryName" value="@Model.FilterModel?.CategoryName"
+                       placeholder="جستجو در دسته‌بندی..."
+                       class="border border-gray-300 rounded-lg px-3 py-2 w-64 shadow-sm focus:ring-cyan-500 focus:border-cyan-500" />
+            </div>
+
+            <div class="flex flex-wrap items-center gap-3">
+                <select name="Sort"
+                        class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-cyan-500 focus:border-cyan-500">
                     <option value="">مرتب‌سازی</option>
-                    <option value="title-asc" selected="@(Model.FilterModel?.Sort == "title-asc" ? "selected" : null)">عنوان (الف → ی)</option>
-                    <option value="title-desc" selected="@(Model.FilterModel?.Sort == "title-desc" ? "selected" : null)">عنوان (ی → الف)</option>
-                    <option value="due-asc" selected="@(Model.FilterModel?.Sort == "due-asc" ? "selected" : null)">سررسید (جدید → قدیم)</option>
-                    <option value="due-desc" selected="@(Model.FilterModel?.Sort == "due-desc" ? "selected" : null)">سررسید (قدیم → جدید)</option>
-                    <option value="status-done" selected="@(Model.FilterModel?.Sort == "status-done" ? "selected" : null)">انجام‌شده اول</option>
-                    <option value="status-notdone" selected="@(Model.FilterModel?.Sort == "status-notdone" ? "selected" : null)">انجام‌نشده اول</option>
+                    <option value="title-desc" selected="@(Model.FilterModel?.Sort == "title-asc" ? "selected" : null)">عنوان</option>
+                    <option value="due-desc" selected="@(Model.FilterModel?.Sort == "due-desc" ? "selected" : null)">تاریخ اتمام(قدیمی تر ها)</option>
+                    <option value="due-asc" selected="@(Model.FilterModel?.Sort == "due-asc" ? "selected" : null)"> تاریخ اتمام (جدیدترها)</option>
+                    <option value="status-done" selected="@(Model.FilterModel?.Sort == "status-done" ? "selected" : null)">انجام‌شده </option>
+                    <option value="status-notdone" selected="@(Model.FilterModel?.Sort == "status-notdone" ? "selected" : null)">انجام‌نشده </option>
                 </select>
 
-
-                <select name="StatusId" class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500">
+                <select name="StatusId"
+                        class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-cyan-500 focus:border-cyan-500">
                     <option value="">همه وضعیت‌ها</option>
-                    <option value="0" selected="@(Model.FilterModel?.StatusId == 0 ? "selected" : null)">در حال انجام</option>
-                    <option value="1" selected="@(Model.FilterModel?.StatusId == 1 ? "selected" : null)">انجام شده</option>
-                    <option value="2" selected="@(Model.FilterModel?.StatusId == 2 ? "selected" : null)">انجام نشده</option>
+                    <option value="0" selected="@(Model.FilterModel?.StatusId == 0 ? "selected" : null)">در حال انجام</option>
+                    <option value="1" selected="@(Model.FilterModel?.StatusId == 1 ? "selected" : null)">انجام شده</option>
+                    <option value="2" selected="@(Model.FilterModel?.StatusId == 2 ? "selected" : null)">انجام نشده</option>
                 </select>
 
+                <input type="date" name="End" value="@(Model.FilterModel?.End?.ToString("yyyy-MM-dd"))"
+                       class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-cyan-500 focus:border-cyan-500" />
 
-            <input type="date" name="End" value="@(Model.FilterModel?.End?.ToString("yyyy-MM-dd"))"
-                   class="border border-gray-300 rounded-lg px-3 py-2 shadow-sm focus:ring-purple-500 focus:border-purple-500" />
-
-            <button type="submit"
-                    class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-6 py-2 rounded-lg shadow-md transition transform hover:scale-105">
-                اعمال فیلتر
-            </button>
+                <button type="submit"
+                        class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold px-6 py-2 rounded-lg shadow-md transition transform hover:scale-105">
+                    اعمال فیلتر
+                </button>
+            </div>
         </div>
-    </div>
-</form>
+    </form>
 
 
-            <a asp-action="Create" asp-controller="TaskItem"
-               class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold px-6 py-2 rounded-lg shadow-md transition transform hover:scale-105">
-                افزودن تسک
-            </a>
-        </div>
 
-    <div class="flex justify-end mb-6 text-gray-700 font-semibold text-lg">
-        امروز @weekdayFa — @todayFa ساعت @currentTime
-    </div>
 
     <div class="overflow-x-auto bg-white rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
         <table class="min-w-full text-sm text-gray-700">
@@ -159,5 +152,12 @@
             </tbody>
         </table>
     </div>
+<div class="flex justify-center mb-8">
+    <a asp-action="Login" asp-controller="Account"
+       class="bg-red-600 hover:bg-red-500 text-white px-5 py-2 rounded-lg shadow-md transition hover:scale-105">
+        خروج
+    </a>
+</div>
+
 </body>
 </html>

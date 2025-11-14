@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaktabToDoList.Infrastructure.EFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaf26eacb38c5856aaa5cc7db1eb1f041e505a75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+651ab0bd4c01ad20ee927215804a07bedf406f63")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaktabToDoList.Infrastructure.EFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaktabToDoList.Infrastructure.EFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
